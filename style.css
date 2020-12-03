@@ -1,0 +1,101 @@
+
+  .c04 p{background-color: red;}
+
+
+
+  .c05 .description{
+      width: 499px;
+      background-color: violet;
+
+      /* center rhdtlr */
+      display: block;
+      margin: auto;
+  }
+
+  .description-2{
+      width: 100px;
+      background-color: lightskyblue;
+
+      margin-left: auto;
+  }
+
+  .description-3{
+      width: 100px;
+      background-color: blue;
+      margin: auto;
+      border-radius: 5px;
+  }
+
+
+  /* 06 float */
+
+  /* 
+  float
+
+  float left
+
+  clear both
+  */
+  .header{
+      width: 100%;
+      height: 50px;
+      background-color: lightcoral;
+  }
+  .left-box{
+      width: 20%;
+      height: 100px;
+      background-color: lightcyan;
+
+      float: left;
+  }
+
+  .right-box{
+      width: 80%;
+      height: 100px;
+      float: left;
+      background-color: lightslategray;
+  }
+  .footer{
+      width: 100%;
+      height: 50px;
+      clear: both;
+      background-color: lightsteelblue;
+  }
+
+  /* 07 display inline-block */
+
+  .container7{
+      width: 800px;
+  }
+
+  .header7{
+      width: 100%;
+      height: 50px;
+      background-color: brown;
+  }
+  .left7{
+      width: 50%;
+      height: 100px;
+      background-color: blue;
+
+      display: inline-block;
+  }
+
+  .right7{
+      width: 50%;
+      height: 100px;
+      background-color: chartreuse;
+      display: inline-block;
+  }
+  .left7_2{
+      width: 50%;
+      height: 100px;
+      background-color:yellowgreen;
+      display: inline-block;
+  }
+  .right7_2{
+      width: 30%;
+      height: 100px;
+      background-color: darkorchid;
+      display: inline-block;
+  }
