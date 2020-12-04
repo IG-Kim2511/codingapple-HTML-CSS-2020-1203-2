@@ -99,3 +99,216 @@
       background-color: darkorchid;
       display: inline-block;
   }
+
+  /* 8 float*/
+
+  /* 
+  1 float
+  
+  */
+
+  .blog-container{
+      width: 90%;
+      height: 200px;
+      background: yellowgreen;
+
+      /* 1 float */
+      float: left;
+  }
+
+  .blog-image{
+      /* 2 */
+      width: 10%;
+      height: 200px;
+      background-color: lightgrey;
+
+      /* 1 */
+      float: left;
+  }
+  .blog-profile{
+      float: left;
+  }
+
+  /* 3 margin  */
+  .blog-profile h4{
+      margin: 0px;
+  }
+  .blog-pic{
+      float: left;
+  }
+  .blog-title{
+      clear: both;
+  }
+
+  .container8{
+      margin: auto;
+  }
+  /* 9 */
+
+  .float9-1{
+      width: 70%;
+      height: 20px;
+      background-color: lightcoral;
+      float: left;
+
+  }
+  .float9-2{
+      width: 30%;
+      height: 20px;
+      background-color: violet;
+      float: left;
+
+     
+  }
+  .clear_both09{
+      clear: both;
+          
+}
+
+/* 1 */
+.margin09{
+    margin-top: 30px;
+    height: 20px;
+    background-color: lightslategray;
+}
+
+/* 2.  
+inline-block
+
+li-inline
+*/
+
+.li-inlin li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.li-inlin >li{
+    background-color: limegreen;
+}
+
+.li-inlin a{
+    text-decoration: none;
+}
+.li-inlin a:visited{
+    color: crimson;
+}
+
+/* 7 */
+.text-align{
+    text-align: center;
+}
+
+/* 10background margin
+
+background size
+100%
+cover
+contain
+default
+margin*/
+
+.background10{
+    width: 100%;
+    height: 300px;
+    background: url(img/etc/background.jpg);
+/* 1 */
+background-size: cover;
+/* 100%, contain */
+background-repeat: no-repeat;
+
+}
+.text10{
+    margin-top: 100px;
+}
+
+.background10-2{
+    width: 100%;
+    height: 300px;
+background-image: url(img/etc/ironman.png);
+
+    padding-top: 100px;
+}
+/* 11positin */
+/* 
+
+relateve
+fixed
+absoluted가운데 정렬공식
+*/
+.background11{
+    width: 100%;
+    height: 300px;
+    background: url(img/etc/background.jpg);
+    padding-top: 100px;
+
+    /* 4 */
+    position: relative;
+}
+
+.c11 .button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: orange;
+
+    /* align */
+    display: block;
+    margin: auto;
+}
+
+.positin1{
+/* 2relative */
+position: relative;
+left: 330px;
+
+
+}
+
+.positin2{
+    /* 3fixed */
+    position: fixed;
+    top: 0px;
+    right: 30px;
+}
+
+
+
+
+.positin3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+}
+/* 12 */
+
+/* 
+positon homework
+1.box
+2.maxwidth
+3. boxsiznengborderbox
+css
+normalixe
+
+
+*/
+.c12 .box{
+    max-width: 600px;
+    width: 80%;
+    margin: auto;
+
+    text-align: center;
+    background-color: violet;
+
+    position: relative;
+    top: -50px;
+}
+
+.padding12{
+    padding: 30px;
+}
+
+
+.bordbox
