@@ -310,5 +310,49 @@ normalixe
     padding: 30px;
 }
 
+/* c13 */
+.c13 form{
+    padding: 50px;
+}
 
-.bordbox
+/* c14 */
+
+/* 1 input tipe= text */
+
+/* 2,  */
+.c14 div,
+.c14 input, 
+.c14 textarea{
+  box-sizing: border-box;
+}
+
+
+.c13 input[type="text"]{
+    padding: 30px;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border: 1px solid red;
+}
+
+/* c15 */
+
+.c15 table{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+th, 
+td{
+    border: 1px solid green;
+}
+
+/* 2 */
+.border-collapse{
+    border-collapse: ;
+}
+
+.vertical-align{
+    vertical-align: bottom;
+}
+/* c16 */
